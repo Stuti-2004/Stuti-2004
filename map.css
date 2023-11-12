@@ -1,0 +1,8 @@
+/* Custom styles for the map container */
+#map-container {
+  height: 100vh;
+  width: 100%;
+  background-color: #e0e0e0; /* Add a background color to the map container */
+}
+
+/* Adjust any additional map styling here */

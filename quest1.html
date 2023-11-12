@@ -1,0 +1,46 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quest 1</title>
+  <link rel="stylesheet" href="styles/quest.css" />
+  <!-- sopied -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="scripts/map.js"></script>
+</head>
+<body>
+  <iframe src="header.html" width="100%" height="70" frameborder="0"></iframe>
+
+  <div id="quest-title">
+    <h1>Supermarket Quest</h1>
+  </div>
+
+      <div style="display: flex;">
+        <div id="map-container" style="width: 50%;">
+          <iframe
+            src="map.html"
+            width="100%"
+            height="400"
+            frameborder="0"
+          ></iframe>
+        </div>
+        <ul style="width: 50%;">
+          <li class="rounded-widget" onclick="location.href='store1.html';">
+            <h2>Walmart</h2>
+            <p>The closest Walmart supercenter is 0.8 km away <br> Walking this distance saves 1.2 kg of carbon in the air and will earn you <strong> 50 gems <strong></strong></p>
+          </li>
+
+          <li class="rounded-widget" onclick="location.href='store2.html';">
+            <h2>Superstore</h2>
+            <p>The closest Superstore is 1.2 km away <br> Walking this distance saves 1.9 kg of carbon in the air and will earn you <strong> 70 gems </strong></p>
+          </li>
+
+          <!-- Add more list items as needed -->
+        </ul>
+      </div>
+      <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initAutocomplete&libraries=places&v=weekly"
+        defer
+      ></script>
+    </body>
+  </html>
+</body

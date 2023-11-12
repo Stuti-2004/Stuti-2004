@@ -1,0 +1,78 @@
+/* Custom styles for the header */
+header {
+  background-color: #fed472; /* Background color for the header */
+  color: black; /* Text color for the header */
+  padding: 10px; /* Padding for the header */
+  text-align: center; /* Center-align text in the header */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: large;
+}
+
+#logo {
+  max-width: 100px; /* Adjust the max-width of your logo */
+}
+
+#menu-icon {
+  display: none; /* Initially hide the menu icon on larger screens */
+}
+
+#menu-dropdown {
+  display: flex;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* Custom styles for the container */
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Adjust any additional container styling here */
+
+#map {
+  flex: 1; /* Take up remaining space in the container */
+  background-color: #e0e0e0; /* Add a background color to the map container */
+}
+
+#right-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#step-tracker {
+  flex: 1;
+  border-bottom: 1px solid #ccc;
+  padding: 20px;
+  background-color: #f0f0f0; /* Add a background color to the step tracker */
+}
+
+#info-panel {
+  flex: 3;
+  padding: 20px;
+  background-color: #ffffff; /* Add a background color to the info panel */
+}
+
+#quest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fed472;
+  padding: 10px;
+  height: 100px;
+}
+
+#quest h1,
+#quest p {
+  margin: 0;
+  text-align: center;
+}

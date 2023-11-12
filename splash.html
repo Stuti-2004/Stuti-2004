@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/splash.css" />
+    <title>Splash Screen</title>
+  </head>
+  <body>
+    <!-- Splash Screen -->
+    <div id="splash-screen">
+      <img src="logo.jpg" alt="Splash Logo" />
+      <h1>Wander</h1>
+      <p>Sustainable Magic in Every Step!</p>
+    </div>
+
+    <!-- Your scripts -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Simulate loading time
+        setTimeout(function () {
+          // Redirect to the main page
+          window.location.href = "index.html";
+        }, 3000); // Adjust the timeout (in milliseconds) based on your desired loading time
+      });
+    </script>
+  </body>
+</html>

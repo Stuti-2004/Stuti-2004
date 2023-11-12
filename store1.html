@@ -1,0 +1,43 @@
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quest 1</title>
+    <link rel="stylesheet" href="styles/quest.css" />
+    <!-- copied -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="scripts/map.js"></script>
+  </head>
+  <body>
+    <iframe src="header.html" width="100%" height="70" frameborder="0"></iframe>
+
+    <div style="display: flex; align-items: center; justify-content: space-around;">
+      <div id="map-container" style="width: 50%;">
+        <img
+          src="assets/walmart.png"
+          width="100%"
+          height="400"
+          style="object-fit: cover;"
+        ></img>
+      </div>
+      <div id="quest-title" style="width: 50%; height: 100%; text-align: left;">
+        <h1>Start Quest?</h1>
+        <p>
+          Are you ready to embark on this quest? This quest will lead you to
+          explore supermarkets in the area.
+        </p>
+        <div style="display: flex; align-items: left; justify-content: left;">
+          <button class="rounded-button" onclick="location.href='start-quest.html';">
+            Start Quest
+          </button>
+          <img id="wizard" src="assets/wizard.png" width="200" height="200" style="margin-left: 10px;">
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initAutocomplete&libraries=places&v=weekly"
+      defer
+    ></script>
+  </body>
+</html>

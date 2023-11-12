@@ -1,0 +1,59 @@
+/* Add styles for the widgets */
+.widget-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.widget {
+  flex: 1;
+  background-color: #25215e;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  color: white;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.widget img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Add styles for the Quests section */
+#quests-panel {
+  background-color: #fed472;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#quests-panel header {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.mini-widget {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #25215e;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.mini-widget button {
+  background-color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wander</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles/layout.css" />
+    <link rel="stylesheet" href="styles/map.css" />
+    <link rel="stylesheet" href="styles/welcomepanel.css" />
+    <link rel="stylesheet" href="styles/widgets.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.css"
+    />
+    <!-- Load Leaflet first -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+    <script src="scripts/scripts.js"></script>
+  </head>
+
+  <body>
+    <iframe src="header.html" width="100%" height="70" frameborder="0"></iframe>
+
+    <div id="welcome-panel">
+      <img src="logo.jpg" height="300px" width="300px" />
+      <h1>Welcome to Wander!</h1>
+      <p>Explore the world with our interactive map and step tracker.</p>
+    </div>
+
+    <!-- Widgets -->
+    <div class="widget-container">
+      <!-- Step Tracker Widget -->
+      <div class="widget">
+        <!--<img src="assets/steps.png" alt="Step Tracker" />-->
+        <h2>Step Tracker</h2>
+        <p>You've completed <strong>7,094</strong> steps today!</p>
+      </div>
+
+      <!-- Points Widget -->
+      <div class="widget">
+        <!-- <img src="assets/coins.png" alt="Points" /> -->
+        <h2>Points</h2>
+        <p>You have made a huge impact <strong>609 pts</strong></p>
+      </div>
+    </div>
+
+    <!-- Quests Panel -->
+    <div id="quests-panel">
+      <header>Choose a Quest!</header>
+
+      <!-- Mini Widgets with buttons -->
+      <div class="mini-widget">
+        <div>Supermarket Quest</div>
+        <button class="start-button" data-quest="1">Start</button>
+      </div>
+
+      <div class="mini-widget">
+        <div>Food Pickup Quest</div>
+        <button class="start-button" data-quest="2">Start</button>
+      </div>
+    </div>
+  </body>
+</html>

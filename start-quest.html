@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quest 1</title>
+    <link rel="stylesheet" href="styles/quest.css" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+
+      iframe {
+        width: 100%;
+        border: 0;
+      }
+
+      #quest-title {
+        background-color: #25215e;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      #main-container {
+        display: flex;
+      }
+
+      #progress-container {
+        width: 50%;
+        height: 50%;
+        padding: 10px;
+        background-color: #f0f0f0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      #map-container {
+        width: 50%;
+      }
+
+      .progress-bar {
+        background-color: #25215e;
+        color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 5px;
+      }
+
+      .progress-bar span {
+        margin-left: 10px;
+      }
+
+      #info-panel {
+        width: 100%;
+        height: 50%;
+        background-color: #f0f0f0;
+        padding: 20px;
+        border: 1px solid #ccc;
+        box-sizing: border-box; /* Include padding and border in the total width and height */
+        margin-top: auto; /* Push the info panel to the bottom */
+        display: flex;
+        flex-direction: column;
+        align-items: left; /* Align items to the start (left) */
+        position: relative; /* Relative positioning for the wizard image */
+      }
+
+      #info-panel h2 {
+        margin-bottom: 10px;
+      }
+
+      #info-panel p {
+        align-items: left;
+      }
+
+      #wizard-img {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe src="header.html"></iframe>
+
+    <div id="quest-title">
+      <h1>Supermarket Quest</h1>
+    </div>
+
+    <div id="main-container">
+      <div id="progress-container">
+        <p>Steps Goals</p>
+        <div class="progress-bar" id="steps-progress">
+          <span id="steps-progress-value">0/10</span>
+        </div>
+        <p>Impact points</p>
+        <div class="progress-bar" id="impact-progress">
+          <span id="impact-progress-value">0/10</span>
+        </div>
+        <p>Gems Collected</p>
+        <div class="progress-bar" id="gems-progress">
+          <span id="gems-progress-value">0/10</span>
+        </div>
+
+        <!-- Information Panel -->
+        <div id="info-panel">
+          <h2>Quest Overview</h2>
+          <p style="align-self: left">
+            You will encounter virtual “enchanted runes” randomly along the
+            route. After a certain amount of time, a prompt will appear asking
+            you to enter the runes in sequence that they appear. If successful,
+            you will receive a virtual reward.
+          </p>
+        </div>
+
+        <!-- Wizard Image -->
+      </div>
+
+      <div id="map-container">
+        <iframe
+          src="map.html"
+          width="100%"
+          height="400"
+          frameborder="0"
+        ></iframe>
+        <h2>Runes Collected</h2>
+        <p>Rune 1</p>
+        <p>Rune 2</p>
+      </div>
+    </div>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initAutocomplete&libraries=places&v=weekly"
+      defer
+    ></script>
+    <script src="scripts/scripts.js"></script>
+  </body>
+</html>

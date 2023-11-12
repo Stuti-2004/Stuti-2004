@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+#quest-title {
+  background-color: #fed472;
+  color: black;
+  padding: 20px;
+  font-size: 20px;
+}
+
+#map-container {
+  width: 70%;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.rounded-widget {
+  align-items: center;
+  list-style: none;
+  background-color: #25215e;
+  border: 1px solid #ccc;
+  color: white;
+  border-radius: 10px;
+  margin: 10px auto; /* Adjusted margin to center horizontally */
+  padding: 20px;
+  text-align: left;
+  width: 90%; /* Changed width to take up the whole width */
+  cursor: pointer;
+}
+
+.rounded-widget:hover {
+  background-color: #6d76b5; /* Change background color on hover */
+}
+
+.rounded-button {
+  align-items: left;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 18px;
+  list-style: none;
+  background-color: #25215e;
+  border: 1px solid #ccc;
+  color: white;
+  border-radius: 10px;
+  margin: 10px auto; /* Adjusted margin to center horizontally */
+  padding: 20px;
+  height: 80px;
+  text-align: center;
+  width: 30%; /* Changed width to take up the whole width */
+  cursor: pointer;
+}
+
+.rounded-button:hover {
+  background-color: #6d76b5; /* Change background color on hover */
+}
+
+/* Add your custom styles for the quest page here */
+/* Add this to your CSS file */
+.progress-bar {
+  width: 80%;
+  background-color: #ddd;
+  border-radius: 10px;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+.progress-bar span {
+  display: block;
+  height: 100%;
+  width: 0; /* Initial width is 0 */
+  background-color: #25215e;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  transition: width 0.3s; /* Add smooth transition effect */
+}
