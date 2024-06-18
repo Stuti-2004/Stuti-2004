@@ -4,8 +4,6 @@
 - 🌱 I’m currently learning **Machine Learning in Python and CS50P**
 - 💭 I want to know more about front end development including UI/UX, HTML and CSS
 - 💞 I enjoy designing, writing and learning new things!
-- 👨‍💻 Check out my design work [http://portfolio.stutigarg.bio/](http://portfolio.stutigarg.bio/)
-- 📝 Check out some of my writing [https://stutigarg.substack.com/](https://stutigarg.substack.com/)
 - 📫 How to reach me **stutigarg1704@gmail.com**
 
 ### 💬 Connect With Me!
