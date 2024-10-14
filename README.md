@@ -4,7 +4,6 @@
 - 🌱 I’m currently enhancing my skills in **C programming** and **Python for Machine Learning (CS50P)**
 - 💻 Passionate about solving complex problems using **C** and **Python** for embedded systems and data-driven solutions
 - 💡 I enjoy designing and developing **Android apps** using **Figma** for UI/UX and **Java** for backend functionality
-- 💭 I love creating meaningful projects that blend technology and real-world impact
 - 📫 How to reach me: **stutigarg1704@gmail.com**
 
 ### 🚀 Projects I've Worked On:
@@ -12,7 +11,6 @@
 - **Biofeedback Walker**: Engineered a smart walking aid using **C**, **Python**, and **ESP32**, incorporating **IR sensors** to track patient steps and provide real-time feedback for improved gait analysis.
 - **Boccia Ramp for Assistive Technology**: Collaborated on a **mental command-controlled Boccia ramp** using **C**, interfacing with the **Emotiv headset** to enable users with neuromotor impairments to control the ramp.
 - **Android App Design**: Designed a health-tracking app with **Figma** and **Java**, connecting patients with healthcare professionals to enhance communication and accessibility.
-- **Assistive TV Remote**: Created a TV remote interface using **C** and **KiCad**, designed specifically for dementia patients to improve ease of use and accessibility.
 
 ### 💬 Connect With Me!
 <p align="left">
