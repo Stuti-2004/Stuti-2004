@@ -3,7 +3,7 @@
 ### 😁 Get to Know Me!
 - 🌱 I’m currently enhancing my skills in **C programming** and **Python for Machine Learning (CS50P)**
 - 💻 Passionate about solving complex problems using **C** and **Python** for embedded systems and data-driven solutions
-- 💡 I enjoy designing and developing **Android apps** using **Figma** for UI/UX and **Java** for backend functionality
+- 💡 I enjoy designing and developing **Android apps** using **Figma** for UI/UX; check out my designs here: https://stutigarg.my.canva.site/
 - 📫 How to reach me: **stutigarg1704@gmail.com**
 
 ### 🚀 Projects I've Worked On:
