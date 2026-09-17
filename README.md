@@ -11,11 +11,11 @@ I'm a **4th-year Electrical Engineering Student**, with minors in **Biomedical E
 
 ### Featured Projects
 
-#### Smart Walking Aid / Gait Monitoring
-Designed embedded electronics and sensing systems for a smart walking aid, using IMUs, Hall sensors, pressure sensors, ESP32, and real-time feedback to collect and analyze gait-related metrics.
+#### 1. Smart Walking Aid / Gait Monitoring
+Helped design embedded electronics and sensing systems for a smart walking aid, using IMUs, Hall sensors, pressure sensors, ESP32, and real-time feedback to collect and analyze gait-related metrics in collaboration with the BMERIT
 
-#### BCI-Controlled Assistive Device
-Developed software and embedded control for a brain-computer-interface controlled Boccia ramp using an Emotiv headset, Arduino, C, and Python.
+#### 2. BCI-Controlled Assistive Device
+Developed software and embedded control for a brain-computer-interface controlled Boccia ramp using an Emotiv headset, Arduino, C, and Python in collaboration with BCI4Kids lab at ACH
 
 #### Brain Signal Processing & Machine Learning
 Explored preprocessing, visualization, feature extraction, and machine learning techniques for physiological/brain signal data using Python and Jupyter.
