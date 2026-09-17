@@ -1,25 +1,31 @@
-# 👋 Hi, I'm Stuti!
+# Hi, I'm Stuti!
+I'm a **4th-year Electrical Engineering Student**, with minors in **Biomedical Engineering & Entrepreneurship & Enterprise Development**.
+- I'm interested in building systems that combine **electronics, embedded software, controls, data, and machine learning** particularly for applications in **biomedical technology, energy, and automation**.
 
-### 😁 Get to Know Me!
-- 🌱 I’m currently enhancing my skills in **C programming** and **Python for Machine Learning (CS50P)**
-- 💻 Passionate about solving complex problems using **C** and **Python** for embedded systems and data-driven solutions
-- 📫 How to reach me: **stutigarg1704@gmail.com**
+### What I'm Working With
+* **Embedded Systems:** C/C++, ESP32, nRF, Arduino, sensors, BLE
+* **Controls & Electrical:** PID control, instrumentation, signal processing, power systems
+* **Data & ML:** Python, NumPy, Pandas, Matplotlib, scikit-learn, Jupyter
+* **Engineering Tools:** KiCad, Git/GitHub, MATLAB, Spotfire, Power BI, Spotfire
+* **Currently Exploring:** Embedded ML, control systems, PCB design, and automation
 
-### 🚀 Projects I've Worked On:
-- **Embedded Systems Projects**: Developed an **ESP32**-based automated fish feeder using **C** and **Python**, controlling motors and collecting real-time data for monitoring.
-- **Biofeedback Walker**: Engineered a smart walking aid using **C**, **Python**, and **ESP32**, incorporating **IR sensors** to track patient steps and provide real-time feedback for improved gait analysis.
-- **Boccia Ramp for Assistive Technology**: Collaborated on a **mental command-controlled Boccia ramp** using **C**, interfacing with the **Emotiv headset** to enable users with neuromotor impairments to control the ramp.
-- **Android App Design**: Designed a health-tracking app with **Figma** and **Java**, connecting patients with healthcare professionals to enhance communication and accessibility.
+### Featured Projects
 
-### 💬 Connect With Me!
-<p align="left">
-<a href="https://www.linkedin.com/in/stuti--garg/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/stuti--garg/" height="30" width="40"/></a>
+#### Smart Walking Aid / Gait Monitoring
+Designed embedded electronics and sensing systems for a smart walking aid, using IMUs, Hall sensors, pressure sensors, ESP32, and real-time feedback to collect and analyze gait-related metrics.
 
-### ⚒️ Languages and Tools:
-<p align="left"> 
-<a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> 
-<a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40"/> </a>
-<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> 
-</a> 
-<a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> 
-</p>
+#### BCI-Controlled Assistive Device
+Developed software and embedded control for a brain-computer-interface controlled Boccia ramp using an Emotiv headset, Arduino, C, and Python.
+
+#### Brain Signal Processing & Machine Learning
+Explored preprocessing, visualization, feature extraction, and machine learning techniques for physiological/brain signal data using Python and Jupyter.
+
+#### Embedded Systems & Electronics
+Developing a collection of embedded projects involving microcontrollers, sensors, communication protocols, control systems, and custom electronics.
+
+### Currently Learning
+Focusing on developing projects that connect theory to real engineering applications.
+
+### 🤝 Let's Connect
+* 💼 [LinkedIn](https://www.linkedin.com/in/stuti--garg/)
+* 📫 [stutigarg1704@gmail.com](mailto:stutigarg1704@gmail.com)
