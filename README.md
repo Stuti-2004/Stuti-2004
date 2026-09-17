@@ -17,10 +17,10 @@ Helped design embedded electronics and sensing systems for a smart walking aid, 
 #### 2. BCI-Controlled Assistive Device
 Developed software and embedded control for a brain-computer-interface controlled Boccia ramp using an Emotiv headset, Arduino, C, and Python in collaboration with BCI4Kids lab at ACH
 
-#### Brain Signal Processing & Machine Learning
+#### 3. Machine Learning Applications
 Explored preprocessing, visualization, feature extraction, and machine learning techniques for physiological/brain signal data using Python and Jupyter.
 
-#### Embedded Systems & Electronics
+#### 4. Embedded Systems & Electronics
 Developing a collection of embedded projects involving microcontrollers, sensors, communication protocols, control systems, and custom electronics.
 
 ### Currently Learning
